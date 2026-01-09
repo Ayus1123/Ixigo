@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-09T13:34:41 IST" name="Suite" finished-at="2026-01-09T13:37:09 IST" duration-ms="148082">
+    <groups>
+    </groups>
+    <test started-at="2026-01-09T13:34:41 IST" name="Test" finished-at="2026-01-09T13:35:19 IST" duration-ms="37344">
+      <class name="testcaseixigo.LoginTest">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:testcaseixigo.LoginTest@4116aac9]" started-at="2026-01-09T13:34:41 IST" name="testDetails" finished-at="2026-01-09T13:34:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="detail()[pri:0, instance:testcaseixigo.LoginTest@4116aac9]" started-at="2026-01-09T13:34:41 IST" name="detail" finished-at="2026-01-09T13:34:41 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detail -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcaseixigo.LoginTest@4116aac9]" started-at="2026-01-09T13:34:41 IST" name="setUp" finished-at="2026-01-09T13:34:44 IST" duration-ms="2631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC001_LoginTest()[pri:0, instance:testcaseixigo.LoginTest@4116aac9]" started-at="2026-01-09T13:34:44 IST" name="TC001_LoginTest" finished-at="2026-01-09T13:35:18 IST" duration-ms="34344" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testcaseixigo.LoginTest.TC001_LoginTest(LoginTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_LoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcaseixigo.LoginTest@4116aac9]" started-at="2026-01-09T13:35:18 IST" name="tearDown" finished-at="2026-01-09T13:35:19 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcaseixigo.LoginTest -->
+    </test> <!-- Test -->
+    <test started-at="2026-01-09T13:35:19 IST" name="Test2" finished-at="2026-01-09T13:35:41 IST" duration-ms="22847">
+      <class name="testcaseixigo.LoginTestError">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:testcaseixigo.LoginTestError@3d34d211]" started-at="2026-01-09T13:35:19 IST" name="testDetails" finished-at="2026-01-09T13:35:19 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="detail()[pri:0, instance:testcaseixigo.LoginTestError@3d34d211]" started-at="2026-01-09T13:35:19 IST" name="detail" finished-at="2026-01-09T13:35:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detail -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcaseixigo.LoginTestError@3d34d211]" started-at="2026-01-09T13:35:19 IST" name="setUp" finished-at="2026-01-09T13:35:20 IST" duration-ms="1871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC002_LoginTestError()[pri:0, instance:testcaseixigo.LoginTestError@3d34d211]" started-at="2026-01-09T13:35:20 IST" name="TC002_LoginTestError" finished-at="2026-01-09T13:35:41 IST" duration-ms="20672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_LoginTestError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcaseixigo.LoginTestError@3d34d211]" started-at="2026-01-09T13:35:41 IST" name="tearDown" finished-at="2026-01-09T13:35:41 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcaseixigo.LoginTestError -->
+    </test> <!-- Test2 -->
+    <test started-at="2026-01-09T13:35:41 IST" name="Test3" finished-at="2026-01-09T13:37:09 IST" duration-ms="87833">
+      <class name="testcaseixigo.BookingPageNavigationTest">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:testcaseixigo.BookingPageNavigationTest@22fcf7ab]" started-at="2026-01-09T13:34:41 IST" name="startReport" finished-at="2026-01-09T13:34:41 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:testcaseixigo.BookingPageNavigationTest@22fcf7ab]" started-at="2026-01-09T13:35:41 IST" name="testDetails" finished-at="2026-01-09T13:35:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="detail()[pri:0, instance:testcaseixigo.BookingPageNavigationTest@22fcf7ab]" started-at="2026-01-09T13:35:41 IST" name="detail" finished-at="2026-01-09T13:35:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detail -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcaseixigo.BookingPageNavigationTest@22fcf7ab]" started-at="2026-01-09T13:35:41 IST" name="setUp" finished-at="2026-01-09T13:35:43 IST" duration-ms="1833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC003_BookingTest()[pri:0, instance:testcaseixigo.BookingPageNavigationTest@22fcf7ab]" started-at="2026-01-09T13:35:43 IST" name="TC003_BookingTest" finished-at="2026-01-09T13:37:09 IST" duration-ms="85632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_BookingTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcaseixigo.BookingPageNavigationTest@22fcf7ab]" started-at="2026-01-09T13:37:09 IST" name="tearDown" finished-at="2026-01-09T13:37:09 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testcaseixigo.BookingPageNavigationTest@22fcf7ab]" started-at="2026-01-09T13:37:09 IST" name="endReport" finished-at="2026-01-09T13:37:10 IST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcaseixigo.BookingPageNavigationTest -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
